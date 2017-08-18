@@ -25,6 +25,7 @@ shebang = {
 	'ruby':       '#!/usr/bin/env ruby',
 	'perl':       '#!/usr/bin/perl',
 	'php':        '#!/usr/bin/php',
+	'swift':      '#!/usr/bin/env swift'
 }
 if not vim.current.buffer[0].startswith('#!'):
 	filetype = vim.eval('&filetype')
